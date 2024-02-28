@@ -1,0 +1,67 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: 0%;
+font-family: aeonik;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    position: fixed ;
+    width: 97.2%;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+/* background-color: green; */
+}
+#nav>a h4{
+    display: flex;
+    gap: 1rem;
+}
+/* #nav h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 50px;
+    margin-left: 22px;
+} */
+/* #nav h1{
+    margin-right: 3px;
+} */
+#child{
+    height: 35%;
+    width: 93.2% ;
+    
+    padding: 50px;
+}
+#child h1{
+    font-size: 145px;
+    letter-spacing: -3px;
+line-height: 130px;
+}
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3,#place h4{
+    margin: 15px ;
+    font-size: 15px;
+}
+#medicine{
+    height: 190%;
+    width: 101%;
+   background-image: url(https://images.unsplash.com/photo-1585435557343-3b092031a831?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1lZGljaW5lfGVufDB8fDB8fHww);
+}
+#log h5{
+    
+    margin: 50% 50%;
+}
